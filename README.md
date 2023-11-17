@@ -35,6 +35,8 @@ We could set an id on each one, and then do them one at a time...
 
 Your job is to make 10 `h1` tags, 10 `p` tags and 10 `span` tags. Then set the style on them with a loop.
 
+Before you start, make a fork of this repository. To turn it in, make a Pull Request to this original repository. Turn in the link to the PR.
+
 1. In `index.html`, make 10 `h1` tags.
 2. In `script.js`, make a loop that changes the color and backgroundColor of each of the `h1` tags.
 3. Do this for your `p` and `span` tags.
