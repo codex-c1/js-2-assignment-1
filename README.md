@@ -31,7 +31,7 @@ We could set an id on each one, and then do them one at a time...
         elm.style.color = "red";
     }
 
-## Deatiled instructions
+## Detailed instructions
 
 Your job is to make 10 `h1` tags, 10 `p` tags and 10 `span` tags. Then set the style on them with a loop.
 
