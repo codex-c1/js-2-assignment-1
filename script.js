@@ -4,7 +4,7 @@
 // Then we will
 
 // Declare the variable to hold our elements.
-let elms, para, jtSpan;
+let elms, para, jtSpan, go;
 
 // Select the elements we wish to change.
 elms = document.querySelectorAll("h1");
@@ -29,12 +29,22 @@ for (elm of para) {
 
 // TODO: select and change the span tags
 //       then loop through the elements and change them.
+jtSpan = document.querySelectorAll("span");
 
+for (elm of jtSpan) {
+  elm.style.backgroundColor = "black";
+  elm.style.fontFamily = "cursive";
+}
 // TODO: Go back to index.html and add
 //       a class called "jump" to 10 elements.
 //       These can be any elements you want.
 //       For example: 2 h1 tags, 3 p tags, 5 span tags.
+go = document.querySelectorAll(".jump");
 
+for (elm of go) {
+  elm.style.position = "relative";
+  elm.style.top = "-10px";
+}
 // TODO: select and change the elements with a .jump class
 // Set the style of each jump so that the element moves up 10px on the page.
 // HINT: You can try...
