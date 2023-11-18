@@ -39,12 +39,25 @@ for (elm of jtSpan) {
 //       a class called "jump" to 10 elements.
 //       These can be any elements you want.
 //       For example: 2 h1 tags, 3 p tags, 5 span tags.
-go = document.querySelectorAll(".jump");
+jumpUp = document.querySelectorAll(".jump");
 
-for (elm of go) {
+for (elm of jumpUp) {
   elm.style.position = "relative";
   elm.style.top = "-10px";
 }
+
+let jumpBack;
+
+jumpBack = document.querySelectorAll(".jump");
+
+function setJump() {
+  jumpBack.style.position = "relative";
+  jumpBack.style.top = "10px";
+}
+
+jumpBtn = document.querySelector("jumpBack");
+jumpBtn.onlick = setJump;
+
 // TODO: select and change the elements with a .jump class
 // Set the style of each jump so that the element moves up 10px on the page.
 // HINT: You can try...
