@@ -12,10 +12,10 @@ let elms;
 elms = document.querySelectorAll("h1");
 
 // Loop through the elements and change them.
-for(elm of elms) {
-    elm.style.color = "red";
-    // TODO: set the backgroundColor;
-}
+for(elm of elms)
+    elm.style.color = "green";
+
+       // TODO: set the backgroundColor
 
 // TODO: select and change the p tags
 //       then loop through the elements and change them.
