@@ -49,10 +49,11 @@ for (elm of jumpUp) {
 function resetStyles() {
   for (elm of jumpUp) {
     elm.style.position = "relative";
-    elm.style.top = "5px";
+    elm.style.top = "0px";
   }
 }
-document.getElementById("resetButton").addEventListener("click", resetStyles);
+document.getElementById("resetButton");
+document.addEventListener("click", resetStyles);
 
 // TODO: select and change the elements with a .jump class
 // Set the style of each jump so that the element moves up 10px on the page.
