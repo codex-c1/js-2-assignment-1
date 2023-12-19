@@ -51,37 +51,38 @@ BakesElms[13].style.color= "purple"
 
 
 
-
-elms = document.querySelectorAll("p")
+let elms;
+elms = document.querySelectorAll("h1")
+console.log(elms)
 // Declare the variable to hold our elements.
-for(elm of elms){
-    elm.style.color = "green";
-}
 
-for(elms of chocolateElms){
-    elms.style.backgroundColor= "lightblue"
-    
-}
-
-for(elms of cottonElms){
-    elms.style.fontSize= "55px"
-}
 
 // Select the elements we wish to change.
-elms[0].style.color = "red"
+
 elms[1].style.color = "red"
 elms[2].style.color = "red"
 elms[3].style.color = "red"
+elms[4].style.color = "red"
+elms[5].style.color = "red"
+elms[6].style.color = "red"
+elms[7].style.color = "red"
+elms[8].style.color = "red"
+elms[9].style.color = "red"
+elms[10].style.color = "red"
+elms[11].style.color = "red"
+elms[12].style.color = "red"
+elms[13].style.color = "red"
 
 // Loop through the elements and change them.
-function changeAll(){
-    window.alert("colors");
-    colorElement = $("#cool-btn")
-    colorElement.style.color ="yellow";
-}
-
-let coolBtn = $("#cool-btn")
-coolBtn.onclick = setmessage
+function changeElms(){
+  
+    window.alert("BakesElms");
+    BakesElms = document.querySelector("#Bakes-h1");
+    BakesElms.style.color = 'purple';
+  }
+  coolbutton = document.querySelector("#Lynndale-btn");
+  coolbutton.onclick = changeElms;
+  
 
 
        // TODO: set the backgroundColor
